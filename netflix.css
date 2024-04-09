@@ -1,0 +1,352 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Martel Sans";
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("assets/img/BG.jpg"); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    height: 80vh;
+    position: relative;
+}
+
+.box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.74;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.hero{
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    color: white;
+    position: relative;
+    padding: 0 30px;
+    margin-top: 150px;
+}
+
+.hero> :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 23px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/*.hero button{
+    font-family: "Roboto"; 
+    margin-top: 20px;
+    background-color: red; 
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+    padding: 9px 20px 5px 22px;
+    font-size: 23px;
+    font-weight: bold;  
+}*/
+
+
+.separation{
+    height: 8px;
+    background-color: gray;
+    opacity: 0.44;
+    margin-top: 137px;  
+    position: relative;
+    z-index: 20; 
+}
+
+.separation2{
+    height: 8px;
+    background-color: gray;
+    opacity: 0.44;
+    margin-top: 85px;  
+    position: relative;
+    z-index: 20;  
+}
+
+.btn{
+    padding: 3px 7px;
+    font-family: "Poppins";
+    font-weight: bold;
+    background-color: rgba(248,243,243,0.021);
+    color: white;
+    border:  1px solid white;
+    border-radius: 4px;
+    font-size: 600;
+    padding: 5px 8px;
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 27px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    font-family: "Poppins";
+    margin-left: 10px;
+
+}
+
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 7px 14px;
+    margin-left: 15px;
+}
+
+
+.main input{
+    padding: 5px 5px 0 100px;
+    font-size: 22px;
+    color: azure;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 1px solid white;
+    font-family: "Poppins";
+    background-color: rgba(23,23,23,0.7);
+}
+
+/*.main input{
+    padding: 9px 100px 5px 30px;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.7);
+    border:  1px solid rgba(246, 238, 238, 0.5);
+}*/
+
+.first{
+    display: flex;
+    max-width: 70vw;
+    margin: auto;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secimg{
+    position: relative;
+}
+
+.secimg img{
+    width: 550px;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video{
+    position: absolute;
+    top: 70px;
+    right: 3px;
+    width: 475px;
+}
+
+.third video{
+    position: absolute;
+    top: 59px;
+    right: 95px;
+    width: 355px;
+}
+
+
+section.first>div{
+    display: flex;
+    flex-direction: column;
+}
+
+section.first>div :nth-child(1){/* strict syntax */
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2){/* strict syntax */
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.faq{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.faq h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.faqbox:hover{
+    background-color: rgb(60, 60, 60);
+}
+.faqbox{
+    display: flex;
+    background-color: gray;
+    color: white;
+    padding: 25px;
+    justify-content: space-between;
+    max-width: 65vw;
+    margin: auto;
+    background-color: rgb(45,45,45);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.faqbox span{
+    font-size: 20px;
+}
+
+.last{
+    justify-content: center;
+    text-align: center;
+}
+
+.last span{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.last input{
+    padding: 5px 5px 0 100px;
+    font-size: 22px;
+    color: azure;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 1px solid white;
+    font-family: "Poppins";
+    background-color: rgba(23,23,23,0.7);
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 75vw;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+}
+
+footer a{
+    color:rgb(238, 237, 237);
+    font-family: "Roboto";
+    padding: 7px 7px;
+}
+
+.call{
+    margin: 70px 0 0 12vw;
+}
+
+@media screen and (max-width: 1300px){
+
+    .nav{
+        max-width: 90vw; 
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+    .first{
+        flex-wrap: wrap;
+    }
+
+    .secimg img{
+        width: 305px;
+    }
+    
+    .secimg video{
+        width: 305px;
+    }
+
+    .hero> :nth-child(1){
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2){
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3){
+        font-size: 18px;
+    }
+
+    .main input{
+        padding: 7px 53px 8px 14px;
+    }
+
+    .buttons button{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .faq h2{
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .footer{
+        max-width: 85vw;
+    }
+
+    .footer-item{
+        align-items: center;
+    }
+}
